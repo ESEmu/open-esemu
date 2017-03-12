@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# VS stuff
+*.tlog
+*.lastbuildstate
+*.log
+*.idb
+*.pdb
