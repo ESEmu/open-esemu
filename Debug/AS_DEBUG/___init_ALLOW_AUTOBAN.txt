@@ -1,0 +1,13 @@
+<unrecognized token> _unnamed_function_()
+
+Temps: 1
+
+Variables: 
+
+
+- 13,13 -
+    0   1 *    SUSPEND
+    1   1 *    SetV1    v1, 0x1
+    3   1 *    LDG      14646112
+    5   1 *    WRTV1    v1
+    6   1 *    RET      0

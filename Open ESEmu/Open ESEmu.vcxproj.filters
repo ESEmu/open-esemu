@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{b486773a-66bb-43e8-a815-156020d09ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Cryptography">
+      <UniqueIdentifier>{c327b178-5980-4f1f-8bee-f3f4ef3f9f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Configuration">
+      <UniqueIdentifier>{805fb5b5-7ade-41c8-a2d9-a61eacf2c00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{fb4073a4-9c69-41b9-b930-9bc650addabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Data">
+      <UniqueIdentifier>{e3067a47-fe50-477a-a413-8768cb832d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Database">
+      <UniqueIdentifier>{9190435d-ef51-4d3a-8e80-eeb3c7d04ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Data\Constants">
+      <UniqueIdentifier>{e26cd2f1-5ffc-4c81-98a8-848043fc0023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Data\DB Struct">
+      <UniqueIdentifier>{f2432c19-ec3e-498e-9e3b-aaa2e3451083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Login Core">
+      <UniqueIdentifier>{fa7748d0-39b0-4fdb-b62e-f4e98552d9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Game Core">
+      <UniqueIdentifier>{5d44715a-91c9-4d38-bd3a-0a87443a3b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Relay Core">
+      <UniqueIdentifier>{437a6146-48a2-41e1-a167-539dcb4cb6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\Messenger Core">
+      <UniqueIdentifier>{a1507d2b-86ff-4a14-a0b8-f9309d29b77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\LUA Engine">
+      <UniqueIdentifier>{8efb03b2-c62f-4121-a0f6-0e76693b3c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\LUA Engine\Exports">
+      <UniqueIdentifier>{debd31b6-16cb-4f85-a469-8278bc08b946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Logger">
+      <UniqueIdentifier>{6d6cf20f-c07e-4f13-acc3-2ae7f289dade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\Console Colors">
+      <UniqueIdentifier>{24260780-1e9a-4caf-83a6-799126dbb34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common\LUA Engine\CVarSystem">
+      <UniqueIdentifier>{783aaf19-6517-404d-9d0d-debe686d3d47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Configuration\ConfigReader.cpp">
+      <Filter>Header Files\Common\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Data\Constants\Constants.cpp">
+      <Filter>Header Files\Common\Data\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Database\DBHandler.cpp">
+      <Filter>Header Files\Common\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server.cpp">
+      <Filter>Header Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LUA Engine\Callback.cpp">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LUA Engine\LuaAPI.cpp">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LUA Engine\LuaInterface.cpp">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Console Colors\advconsole.cpp">
+      <Filter>Header Files\Common\Console Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Console Colors\advconsole.win32.cpp">
+      <Filter>Header Files\Common\Console Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Console Colors\colorex.cpp">
+      <Filter>Header Files\Common\Console Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Logger\Logger.cpp">
+      <Filter>Header Files\Common\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LUA Engine\CVarSystem\CmdLineInterface.cpp">
+      <Filter>Header Files\Common\LUA Engine\CVarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LUA Engine\CVarSystem\CVarSystem.cpp">
+      <Filter>Header Files\Common\LUA Engine\CVarSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Configuration\ConfigReader.h">
+      <Filter>Header Files\Common\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Data\Constants\Constants.h">
+      <Filter>Header Files\Common\Data\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Data\Database\Queries.h">
+      <Filter>Header Files\Common\Data\DB Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Data\Database\Structures.h">
+      <Filter>Header Files\Common\Data\DB Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Database\DBHandler.h">
+      <Filter>Header Files\Common\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\__opcImporter.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\CommandCallback.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Server.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\Callback.h">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\LuaAPI.h">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\LuaInterface.h">
+      <Filter>Header Files\Common\LUA Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\Exports\_exports.h">
+      <Filter>Header Files\Common\LUA Engine\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Console Colors\advconsole.h">
+      <Filter>Header Files\Common\Console Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Logger\Logger.h">
+      <Filter>Header Files\Common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\CVarSystem\CmdLineInterface.h">
+      <Filter>Header Files\Common\LUA Engine\CVarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LUA Engine\CVarSystem\CVarSystem.h">
+      <Filter>Header Files\Common\LUA Engine\CVarSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\Data\Database\Database.sql">
+      <Filter>Header Files\Common\Data\DB Struct</Filter>
+    </None>
+    <None Include="README.md" />
+    <None Include="LICENSE.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>

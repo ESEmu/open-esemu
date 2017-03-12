@@ -1,0 +1,13 @@
+<unrecognized token> _unnamed_function_()
+
+Temps: 2
+
+Variables: 
+
+
+- 9,14 -
+    0   2 *    SUSPEND
+    1   2 *    SetV8    v2, 0x3ff0000000000000          (i:4607182418800017408, f:1)
+    4   2 *    LDG      14645992
+    6   2 *    WRTV8    v2
+    7   2 *    RET      0

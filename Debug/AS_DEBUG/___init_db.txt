@@ -1,0 +1,18 @@
+<unrecognized token> _unnamed_function_()
+
+Temps: 1
+
+Variables: 
+ 001: (heap) Database {noname}
+
+
+- 24,11 -
+    0   1 *    SUSPEND
+    1   1 *    CALL     106           (Database@ Database())
+    3   1 *    STOREOBJ v1
+    4   1 *    PshVPtr  v1
+    5   2 *    PGA      14706448
+    7   3 *    REFCPY   0xdf8878
+    9   2 *    PopPtr
+   10   1 *    FREE     v1, 14649464
+   12   1 *    RET      0

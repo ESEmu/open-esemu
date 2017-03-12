@@ -1,0 +1,8 @@
+
+class Math
+{
+	Math() {}
+	~Math() {}
+	
+	
+}
